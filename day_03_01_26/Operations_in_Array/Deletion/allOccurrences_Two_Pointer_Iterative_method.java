@@ -1,0 +1,19 @@
+package day_03_01_26.Operations_in_Array.Deletion;
+
+public class allOccurrences_Two_Pointer_Iterative_method {
+    public static int removeElement(int[] arr, int ele){
+        int k = 0;
+        for (int i = 0; i < arr.length; i++){
+            if (arr[i] != ele){
+                arr[k] = arr[i];
+                k++;
+            }
+        }
+        return k;
+    }
+    public static void main(String[] args){
+        int[] arr = {0, 1, 3, 0, 2, 2, 4, 2};
+        int ele = 2;
+        System.out.println(removeElement(arr, ele));
+    }
+}
