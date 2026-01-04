@@ -1,6 +1,6 @@
 package day_03_01_26.Operations_in_Array.Deletion;
 
-public class arGivenPosition_Custom_method {
+public class atGivenPosition_Custom_method {
     public static void main(String[] args){
         int[] arr = {10, 20, 30, 40};
         int n = arr.length;
